@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narsima Global - Skilled Manpower & IT Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "BmJ9LTG8Q8wjufAxd",
+        });
+    })();
+    </script>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">NG</div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#quote" class="btn">Get Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Narsima Global</h1>
+      <p>Skilled Manpower & IT Solutions</p>
+      <p>Empowering government and businesses across India with reliable manpower solutions, cutting-edge IT services, and comprehensive document management solutions.</p>
+      <div class="hero-buttons">
+        <a href="#quote" class="btn">Get Quote</a>
+        <a href="#contact" class="btn secondary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <div class="about-cards">
+    <div class="card">
+      <div class="card-img">
+        <img src="images/mission-img.jpg" alt="Our Mission">
+      </div>
+      <div class="card-body">
+        <h3>Our Mission</h3>
+        <p>Delivering manpower and IT solutions that empower businesses and government bodies.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img">
+        <img src="images/leadership-team.jpg" alt="Leadership Team">
+      </div>
+      <div class="card-body">
+        <h3>Leadership Team</h3>
+        <p>Experienced leaders driving growth and innovation.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img">
+        <img src="images/career-image.jpg" alt="Careers">
+      </div>
+      <div class="card-body">
+        <h3>Careers</h3>
+        <p>Join our team to make an impact in manpower and IT industries.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+        <div class="card">
+            <div class="card-img">
+                <img src="images/career-image.jpg" alt="Careers">
+            </div>
+            <div class="card-body">
+                <h3>Manpower Solutions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus beatae modi nobis id suscipit delectus facere vel explicabo eveniet pariatur!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="images/career-image.jpg" alt="Careers">
+            </div>
+            <div class="card-body">
+                <h3>IT Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus beatae modi nobis id suscipit delectus facere vel explicabo eveniet pariatur!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="images/career-image.jpg" alt="Careers">
+            </div>
+            <div class="card-body">
+                <h3>Document Scanning</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus beatae modi nobis id suscipit delectus facere vel explicabo eveniet pariatur!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="images/career-image.jpg" alt="Careers">
+            </div>
+            <div class="card-body">
+                <h3>Government Projects</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus beatae modi nobis id suscipit delectus facere vel explicabo eveniet pariatur!</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Patna, Bihar - PAN India</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Email:</strong> info@narsimaglobal.com</p>
+  </section>
+
+  <!-- Quote Section -->
+  <section id="quote" class="quote">
+    <h2>Request a Quote</h2>
+    <form>
+      <!-- Add your form fields here -->
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Requirements"></textarea>
+      <button type="submit" onclick="sendMail() ">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#about">Our Mission</a></li>
+          <li><a href="#about">Leadership Team</a></li>
+          <li><a href="#about">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Manpower Solutions</a></li>
+          <li><a href="#services">IT Services</a></li>
+          <li><a href="#services">Document Scanning</a></li>
+          <li><a href="#services">Government Projects</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Blog & Insights</a></li>
+          <li><a href="#">Industry Reports</a></li>
+          <li><a href="#">Help Center</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Stay Updated</h3>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Narsima Global. All rights reserved.</p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a> | 
+      <a href="#">Cookie Policy</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
